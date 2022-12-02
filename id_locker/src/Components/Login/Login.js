@@ -5,7 +5,7 @@ import './Login.css'
 const LoginButton = () => {
   const { loginWithRedirect } = useAuth0();
 
-  return <button onClick={() => loginWithRedirect()}>Sign up/Log In</button>;
+  return <button className="signup-button" onClick={() => loginWithRedirect()}>Sign up/Log In</button>;
 };
 
 export default LoginButton;
