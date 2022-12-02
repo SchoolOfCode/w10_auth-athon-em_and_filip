@@ -1,0 +1,19 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40vw;
+    background-color: cornsilk;
+    align-items: center;
+    padding: 20px;
+    height: 400px;
+    gap: 50px;
+}
