@@ -39,18 +39,19 @@ const Profile = () => {
   if (isLoading) {
     return <div>Loading ...</div>;
   }
+
+  console.log(user);
   
   return (
     isAuthenticated && (
       <div>
         <img src={user.picture} alt={user.name} />
         <h2>{user.name}</h2>
-        <p>{user.email}</p>
-        <h3>User Metadata</h3>
+        <h3>Welcome back {user.nickname}!</h3>
         {userMetadata ? (
           <pre>{JSON.stringify(userMetadata, null, 2)}</pre>
         ) : (
-          "No user metadata defined"
+          ""
         )}
 </div>)
  
