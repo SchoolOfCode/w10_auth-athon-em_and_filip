@@ -9,7 +9,7 @@ import './Home.css'
 const Home = () => {
     return <div className="home-container">
     <div className="login-container">   
-        <Banner text="Welcome to ID Locker !"/>
+        <Banner text="Welcome to our deployed site !"/>
         <Description/>
         <LoginButton/>
     </div>
