@@ -1,0 +1,17 @@
+.signup-button {
+    width: 30%;
+    background-color: rgba(240, 248, 255, 0.854);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 5px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+button:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    transform: scale(1.1);
+    background-color: rgba(240, 248, 255, 0.97);
+    cursor: pointer;
+}
